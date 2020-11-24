@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "cmd1": "002-console/task-1.js"
+    "cmd_2_1": "002-console/task-1.js",
+    "cmd_2_2": "002-console/task-2.js"
   },
   "repository": {
     "type": "git",

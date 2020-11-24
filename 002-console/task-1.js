@@ -3,6 +3,8 @@
 
 const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
+
+
 const argv = yargs(hideBin(process.argv))
   .usage('Usage: $0 <command> [options]')
   .command('current', 'Текущие дата и время')
