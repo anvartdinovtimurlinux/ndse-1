@@ -1,0 +1,22 @@
+{
+  "name": "ndse",
+  "version": "1.0.0",
+  "description": "homeworks for course NDSE-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvartdinovtimurlinux/ndse-1.git"
+  },
+  "author": "Anvartdinov Timur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anvartdinovtimurlinux/ndse-1/issues"
+  },
+  "homepage": "https://github.com/anvartdinovtimurlinux/ndse-1#readme",
+  "dependencies": {
+    "yargs": "^16.1.1"
+  }
+}
