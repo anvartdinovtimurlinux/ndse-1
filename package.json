@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "cmd1": "002-console/task-1.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anvartdinovtimurlinux/ndse-1.git"
