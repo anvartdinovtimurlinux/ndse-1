@@ -17,7 +17,6 @@ fs.readFile(
         const countWins = results.filter(score => score == 1).length;
         const percentageWins = (countWins / countParties * 100).toFixed(2);
 
-
         console.log(`Сыграно партий: ${countParties}`);
         console.log(`Выиграно партий: ${countWins}`);
         console.log(`Процентное соотношение выигранных партий: ${percentageWins}%`);
