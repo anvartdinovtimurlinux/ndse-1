@@ -12,6 +12,11 @@ fs.readFile(
     file,
     'utf-8',
     (err, data) => {
+        if (err) {
+            console.log(err.stack);
+            process.exit();
+        }
+
         const results = data.split('');
         const countParties = results.length;
         const countWins = results.filter(score => score == 1).length;
