@@ -1,0 +1,27 @@
+{
+    "name": "weather",
+    "version": "1.0.0",
+    "description": "Универсальный вычислитель текущей погоды",
+    "main": "weather.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node -r dotenv/config ./weather.js",
+        "start": "node ./weather.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anvartdinovtimurlinux/ndse-1.git"
+    },
+    "author": "Anvartdinov Timur",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/anvartdinovtimurlinux/ndse-1/issues"
+    },
+    "homepage": "https://github.com/anvartdinovtimurlinux/ndse-1#readme",
+    "dependencies": {
+        "yargs": "^16.1.1"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0"
+    }
+}
