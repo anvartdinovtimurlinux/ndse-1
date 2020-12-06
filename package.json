@@ -4,7 +4,9 @@
   "description": "homeworks for course NDSE-1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev weather": "node -r dotenv/config 005-http-module/weather.js",
+    "weather": "node 005-http-module/weather.js"
   },
   "bin": {
     "cmd_2_1": "002-console/task-1.js",
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/anvartdinovtimurlinux/ndse-1#readme",
   "dependencies": {
     "yargs": "^16.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
