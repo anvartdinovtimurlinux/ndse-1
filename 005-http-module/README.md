@@ -2,5 +2,7 @@
 1) Вам нужно получить токен на сайте [weatherstack](https://weatherstack.com/).
 2) Создать файл .env в корне проекта и написать в нем `myAPIKey=ваш_токен`
 3) Установить зависимости командой `npm i`
-3) Запустить программу командой `node -r dotenv/config ./weather.js --city Moscow`, чобы узнать погоду в Москве
-4) Если в названии города больше одного слова, возьмите его в кавычки, например `node -r dotenv/config ./weather.js --city "New York"`
+3) Запустить программу командой 
+`node -r dotenv/config ./weather.js --city Moscow`, чобы узнать погоду в Москве
+4) Если в названии города больше одного слова, возьмите его в кавычки, например 
+`node -r dotenv/config ./weather.js --city "New York"`
